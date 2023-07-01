@@ -1,0 +1,14 @@
+https://packagist.org/packages/seytar/php-router
+
+mirkomimic/api-mimic-package
+
+"require": {
+    "seytar/php-router": "dev-master"
+  },
+  "autoload": {
+    "psr-4": {
+      "App\\": "app/"
+    }
+  },
+composer update
+composer dump-autoload -o
